@@ -26,13 +26,13 @@ keys[1] = (Math.random()>0.5) ? Emperors[keys[0]].beginning : Emperors[keys[0]].
 
 keys[2] = (Emperors[keys[0]].name).length  /* define key largo del nombre*/ 
 
-console.log(`Key 0: ${keys[0]}`)
-console.log(`Key 1: ${keys[1]}`)
-console.log(`Key 2: ${keys[2]}`)
+// console.log(`Key 0: ${keys[0]}`)
+// console.log(`Key 1: ${keys[1]}`)
+// console.log(`Key 2: ${keys[2]}`)
 
 let Masterkey = keys[0]+keys[1]+keys[2] 
 
-console.log(`Master Key: ${Masterkey}`)
+// console.log(`Master Key: ${Masterkey}`)
 
 
 const encrypt = (messageToEncrypt, Masterkey) => {
